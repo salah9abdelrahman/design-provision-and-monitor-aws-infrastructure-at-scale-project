@@ -1,20 +1,20 @@
 ﻿Estimate summary
 Upfront cost,Monthly cost,Total 12 months cost,Currency
-0,9262.080000000002,111144.96,USD
+0.33,8224.980000000001,98700.09,USD
 ,,* Includes upfront cost
 
 
 Detailed Estimate
 Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
-My Estimate,US East (N. Virginia),,Amazon Route 53,0,151,1812.00,USD,,"Hosted Zones (2), Additional Records in Hosted Zones (100000)"
-My Estimate,US East (N. Virginia),,Amazon CloudFront,0,420.1,5041.20,USD,,"Data transfer out to internet (4000 GB per month), Data transfer out to origin (4000 GB per month), Number of requests (HTTPS) (100000 per month)"
-My Estimate,US East (N. Virginia),,Network Load Balancer,0,237.23,2846.76,USD,,"Number of Network Load Balancers (2), Processed bytes per NLB for TCP (20 GB per hour), Average number of new TCP connections (1000 per second), Average TCP connection duration (10 seconds), Processed bytes per NLB for TLS (1 GB per hour), Average number of new TLS connections (100 per second), Average TLS connection duration (100 seconds)"
-My Estimate,US East (N. Virginia),,Amazon EC2 ,0,445.816,5349.79,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (t3a.2xlarge), Pricing strategy ( 3yr  No Upfront), Enable monitoring (enabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
-My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,6748.799999999999,80985.60,USD,,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (10 TB), Quantity (2), Instance type (db.m2.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Cost for one month of retention (per vCPU per month) (1.5000000000), Cost for each additional month of retention (per vCPU per month) (0.0631000000), Cost for total retention (per vCPU per month) (2.95)"
-My Estimate,US East (N. Virginia),,S3 Standard,0,642.5,7710.00,USD,,"S3 Standard storage (4 TB per month), PUT, COPY, POST, LIST requests to S3 Standard (100000000), GET, SELECT, and all other requests from S3 Standard (100000000), Data returned by S3 Select (3 TB per month), Data scanned by S3 Select (3 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,1501,18012.00,USD,,"Hosted Zones (2), Additional Records in Hosted Zones (1000000)"
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,255.04,3060.48,USD,,"Data transfer out to internet (2 TB per month), Data transfer out to origin (2 TB per month), Number of requests (HTTPS) (40000000 per month)"
+My Estimate,US East (N. Virginia),,Network Load Balancer,0,147.83,1773.96,USD,,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (20 GB per hour), Average number of new TCP connections (1000 per second), Average TCP connection duration (1000 seconds), Processed bytes per NLB for UDP (10 GB per hour)"
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,2940.528,35286.34,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 12), Advance EC2 instance (t3.2xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (enabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,250.02,3000.24,USD,,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,149.65,1795.80,USD,,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,2903.36,34840.32,USD,,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (4 TB), Quantity (2), Instance type (db.m2.xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Cost for one month of retention (per vCPU per month) (1.5000000000), Cost for each additional month of retention (per vCPU per month) (0.0631000000), Cost for total retention (per vCPU per month) (2.95)"
+My Estimate,US East (N. Virginia),,S3 Standard,0.32768,77.55,930.93,USD,,"S3 Standard storage (1 TB per month), S3 Standard Average Object Size (16 MB), PUT, COPY, POST, LIST requests to S3 Standard (10000000), GET, SELECT, and all other requests from S3 Standard (10000000)"
 My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,,
-My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,78.93,947.16,USD,,Number of NAT Gateways (1)
-My Estimate,US East (N. Virginia),,Gateway Load Balancer,0,537.7,6452.40,USD,,"Number of Availability Zones that Gateway Load Balancer is deployed to (2), Number of Gateway Load Balancer Endpoints (4), Total processed bytes (1 TB per month), Average number of new connections/flows (10000 per second), Average connection/flow duration (1000 seconds)"
 
 
 
